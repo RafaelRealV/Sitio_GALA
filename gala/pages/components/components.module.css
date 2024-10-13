@@ -1,0 +1,95 @@
+/* DISENO DEL LA BARA DE NAVEGACION*/
+.navbarmain{
+    background-color: #F2E205;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarmenu{
+    list-style-type: none;
+    display: flex;
+}
+
+
+  .navbarlink{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbarlink:hover{
+    background-color: #95D904;
+    border-radius: 4px;
+  }
+
+  .searchbar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .searchinput {
+    padding: 8px;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+  }
+  .buttonserch{
+    background-color:#fafaf8;
+  }
+
+  /*DISENO DE LA INFORMACION DEL FOOTER*/
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  .footerContenedor{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .footerSeccion {
+    flex: 1;
+    margin: 0 15px;
+  }
+  .footerSeccion h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #f1f1f1;
+  }
+  .footerSeccion p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  .footerSeccion ul {
+  list-style: none;
+  padding: 0;
+}
+.footerSeccion ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footerSeccion ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .footerSeccion ul li a:hover {
+    color: #fff;
+  }
+
+  .footerSocial {
+    display: flex;
+    gap: 15px;
+  }
