@@ -1,0 +1,38 @@
+.divImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 375px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgba(253, 245, 5, 0.3), rgba(0, 0, 0, 0) 90%)
+              
+}
+
+.divImage img{
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+.divpric {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.text {
+
+    margin-top:10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+.text h3{
+    text-align: center;
+}

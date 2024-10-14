@@ -20,7 +20,7 @@ export default function Navbar() {
       </Link>
       <ul className={styles.navbarmenu}>
         <li>
-          <Link className={styles.navbarlink} href="/">
+          <Link className={styles.navbarlink} href="/Catalogo">
             Catalogo
           </Link>
         </li>
