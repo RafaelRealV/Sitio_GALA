@@ -25,7 +25,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link className={styles.navbarlink} href="/about">
+          <Link className={styles.navbarlink} href="/Categorias">
             categoria
           </Link>
         </li>
